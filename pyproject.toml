@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cache_database"          
+version = "0.1.0"
+description = "cache database"
+readme = {file = "README.md", content-type = "text/markdown; charset=UTF-8"}
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "moon", email = "lianjiao20@gmail.com"}
+]
+dependencies = []

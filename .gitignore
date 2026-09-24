@@ -1,0 +1,3 @@
+.venv
+cache_database.egg-info
+dist
