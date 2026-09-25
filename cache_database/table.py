@@ -1,7 +1,7 @@
 class Table:
     store:list[dict] =[]
     id_index:int = 0
-    arr:list = []
+    arr:list[str] = []
 
     def __init__(self):
         pass
@@ -37,6 +37,9 @@ class Table:
                     i[key]=data[key]
                 return True
         return False
+    
+    def fields(self) -> list[str]:
+        return self.arr
 
 
 
